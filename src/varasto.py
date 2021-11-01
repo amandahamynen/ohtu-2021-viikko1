@@ -36,8 +36,10 @@ class Varasto:
             self.saldo = 0.0
 
             return kaikki_mita_voidaan
-
-        self.saldo = self.saldo - maara
+        #Rikotaan testi
+        #self.saldo = self.saldo - maara
+        self.saldo = self.saldo
+        
 
         return maara
     
